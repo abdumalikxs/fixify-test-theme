@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Bundle checkout module
-        run: node assets/checkout.js
+      - name: Validate theme templates
+        run: node scripts/validate-theme.mjs
       - name: Check JS syntax
         run: node --check assets/theme.js

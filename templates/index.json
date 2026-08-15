@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero-bannner",
+      "settings": {
+        "heading": "Summer drop is live",
+        "cta_label": "Shop now",
+        "link": "/collections/summer"
+      }
+    },
+    "featured": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "summer"
+      }
+    }
+  },
+  "order": ["hero", "featured"]
+}

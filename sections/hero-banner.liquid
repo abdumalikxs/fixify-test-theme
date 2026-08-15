@@ -1,0 +1,16 @@
+{% comment %} Hero banner with a heading and CTA {% endcomment %}
+<section class="hero-banner">
+  <h1>{{ section.settings.heading }}</h1>
+  <a href="{{ section.settings.link }}">{{ section.settings.cta_label }}</a>
+</section>
+
+{% schema %}
+{
+  "name": "Hero banner",
+  "settings": [
+    { "id": "heading", "type": "text", "label": "Heading" },
+    { "id": "cta_label", "type": "text", "label": "Button label" },
+    { "id": "link", "type": "url", "label": "Button link" }
+  ]
+}
+{% endschema %}
