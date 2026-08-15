@@ -1,7 +1,7 @@
 {
   "sections": {
     "hero": {
-      "type": "hero-bannner",
+      "type": "hero-banner",
       "settings": {
         "heading": "Summer drop is live",
         "cta_label": "Shop now",
