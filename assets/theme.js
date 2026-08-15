@@ -10,6 +10,7 @@ function updateCartCount(items) {
     badge.textContent = total;
   }
   return total;
+}
 
 function initCart() {
   document.addEventListener('cart:updated', function (event) {
